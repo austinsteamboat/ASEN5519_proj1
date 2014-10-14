@@ -28,8 +28,8 @@ persistent path_pts
 global wind
 
 % Add some Gaussian noise to measurements
-wind_measurement = wind + randn*.1;
-x = x + [randn*1;randn*1;randn;randn*.05];
+wind_measurement = wind + randn*0;
+x = x + [randn*0;randn*0;randn*0;randn*0];
 
 %% Create ellipse and appropriate Fourier fit for r(theta) and z(theta)
 % This section will be done offline for the project, just the Fourier
@@ -82,8 +82,11 @@ chi_dot = k_chi*(delta_chi);
 % Implement saturation point for turn limit
 chi_dot_limit = 30*pi/180;
 chi_dot = turn_rate_limit(chi_dot,chi_dot_limit);
+% Implement saturation point for climb rate
+z_dot_limit = 5;
+z_dot = climb_rate_limit(u_vel_1(3),z_dot_limit);
 % Output command vector
-u = [norm([u_x_vel_1;u_y_vel_1;u_vel_1(3)]);chi_dot;u_vel_1(3)];
+u = [norm([u_x_vel_1;u_y_vel_1;z_dot]);chi_dot;z_dot];
 % Output the ellipse path for plotting
 path = path_pts;
 path(:,1) = path(:,1) + mu_x;
@@ -133,5 +136,13 @@ if abs(chi_dot_commanded) > limit
     chi_dot = chi_dot_commanded/abs(chi_dot_commanded) * limit;
 else
     chi_dot = chi_dot_commanded;
+end
+end
+
+function z_dot = climb_rate_limit(z_dot_commanded,limit)
+if abs(z_dot_commanded) > limit
+    z_dot = z_dot_commanded/abs(z_dot_commanded) * limit;
+else
+    z_dot = z_dot_commanded;
 end
 end

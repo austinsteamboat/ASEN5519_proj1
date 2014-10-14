@@ -11,7 +11,7 @@ v = 20;
 wind = [0;0;0];
 
 %Initialize Vehicle State
-x_0 = [450;200;140;0];
+x_0 = [1200*rand - 200;1200 * rand - 200;rand*500;rand*2*pi];
 
 % Set parameters
 tmax = 200;

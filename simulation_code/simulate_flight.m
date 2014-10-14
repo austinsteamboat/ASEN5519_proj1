@@ -16,7 +16,7 @@ u_list(:,1) = ones(delay_ind,1) .* v;
 % Initialize plotting lists
 x_list = [];
 error_list = [];
-
+figure(1)
 for i = 1:size(t,2)
     % Write now, the function just takes in truth position in SI units and
     % adds some noise to it. Do we want to actually implement a simulation
@@ -66,7 +66,6 @@ for i = 1:size(t,2)
 %     
 %     error_list = [error_list;dist];
 
-figure(1)
 clf
 scatter3(x(1),x(2),x(3),50,'filled')
 hold on
@@ -75,6 +74,7 @@ hold on
 plot3(path(:,1),path(:,2),path(:,3),'Color','g','LineWidth',2)
 grid on
 axis([-200 1000 -200 600 -100 500])
+pause(0.01)
 end
 % % Error Plots
 % figure(2)
