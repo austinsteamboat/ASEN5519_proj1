@@ -116,70 +116,20 @@ float* f_frew(float x, float y, float z, float chi,float frew_com[3])
 //	u[1] = theta;
 //	u = u_v;
 //	return frew_com;
-//      debugs
-//      Pos
-	printf("Pos: \n");
-	printf("	\n");
-	printf("x : %f \n",x);
-	printf("y : %f \n",y);
-	printf("z : %f \n",z);		
-	printf("chi : %f \n",chi);
-	printf("r : %f \n",r);
-	printf("theta : %f \n",theta);
-//      _d and primes
-	printf("	\n");
-	printf("_d and Primes: \n");
-	printf("	\n");
-	printf("r_d : %f \n",r_d);
-	printf("z_d : %f \n",z_d);
-	printf("r_d_prime : %f \n",r_d_prime);
-	printf("z_d_prime : %f \n",z_d_prime);
-//      Parametric
-	printf("	\n");
-	printf("Parametric: \n");
-	printf("	\n");
-	printf("rho : %f \n",rho);
-	printf("phi : %f \n",phi);
-	printf("zeta : %f \n",zeta);
-//      Vector Fields
-	printf("	\n");
-	printf("Vector Field: \n");
-	printf("	\n");
-	printf("v1_1 : %f \n",v1_1);
-	printf("v1_2 : %f \n",v1_2);
-	printf("v1_3 : %f \n",v1_3);
-//      Vector Commands
-	printf("	\n");
-	printf("Vector Commands: \n");
-	printf("	\n");
-	printf("alpha : %f \n",alpha);
-	printf("vr : %f \n",v_r);
-	printf("vtheta : %f \n",v_theta);
-	printf("vz : %f \n",v_z);
-	printf("vx : %f \n",v_x);
-	printf("vy : %f \n",v_y);
-//      Commands
-	printf("	\n");
-	printf("Commands: \n");
-	printf("	\n");
-	printf("u_v : %f \n",u_v);
-	printf("u_chi_dot : %f \n",u_chi_dot);
-	printf("u_z : %f \n",u_z);
-	
 }
 
 int main()
 {
- float x = 23.728;
- float y = 45.885;
- float z = -192.6;
- float chi = 3.4357;
+ float x = 52.114;
+ float y = 23.159;
+ float z = -97.78;
+ float chi = 3.9211;
  float frew_com[3];
  f_frew(x,y,z,chi,frew_com);
 // float* frew_com;
 // frew_com = f_frew(x,y,z,chi);
-// printf("U V Out is   : %f \n",frew_com[0]);
-// printf("U Chi Out is : %f \n",frew_com[1]);
-// printf("U Z Out is   : %f \n",frew_com[2]);
+ printf("U V Out is   : %f \n",frew_com[0]);
+ printf("U Chi Out is : %f \n",frew_com[1]);
+ printf("U Z Out is   : %f \n",frew_com[2]);
 
 }
