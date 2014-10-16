@@ -49,17 +49,17 @@ for i = 1:size(coeff_matrix,2)
     end
     for j = 1:size(coeff_matrix,1)
         if j == 1
-            string = strcat(string,'float a',id_str,'_0;\r\n');
-            string = strcat(string,'a',id_str,'_0 = ',num2str(coeff_matrix(j,i) ,'%5.10f'),';\r\n');
+            %string = strcat(string,'float a',id_str,'_0;\r\n');
+            string = strcat(string,'float a',id_str,'_0 = ',num2str(coeff_matrix(j,i) ,'%5.10f'),';\r\n');
         elseif j == 18
-            string = strcat(string,'float w',id_str,';\r\n');
-            string = strcat(string,'w',id_str,' = ',num2str(coeff_matrix(j,i),'%5.10f'),';\r\n');
+           % string = strcat(string,'float w',id_str,';\r\n');
+            string = strcat(string,'float w',id_str,' = ',num2str(coeff_matrix(j,i),'%5.10f'),';\r\n');
         elseif mod(j,2) == 0
-            string = strcat(string,'float a',id_str,'_',num2str(j/2),';\r\n');
-            string = strcat(string,'a',id_str,'_',num2str(j/2),' = ',num2str(coeff_matrix(j,i),'%5.10f'),';\r\n');
+           % string = strcat(string,'float a',id_str,'_',num2str(j/2),';\r\n');
+            string = strcat(string,'float a',id_str,'_',num2str(j/2),' = ',num2str(coeff_matrix(j,i),'%5.10f'),';\r\n');
         else
-            string = strcat(string,'float b',id_str,'_',num2str((j-1)/2),';\r\n');
-            string = strcat(string,'b',id_str,'_',num2str((j-1)/2),' = ',num2str(coeff_matrix(j,i),'%5.10f'),';\r\n');
+           % string = strcat(string,'float b',id_str,'_',num2str((j-1)/2),';\r\n');
+            string = strcat(string,'float b',id_str,'_',num2str((j-1)/2),' = ',num2str(coeff_matrix(j,i),'%5.10f'),';\r\n');
         end
     end
 end
