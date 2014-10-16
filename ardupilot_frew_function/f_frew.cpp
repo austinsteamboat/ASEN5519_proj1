@@ -1,0 +1,113 @@
+#include "f_frew.h"
+#include "math.h"
+#include "stdlib.h"
+#include "stdio.h"
+
+float* f_frew(float x, float y, float z, float chi)
+{
+	//Define all variables
+	float r;		//Vehicle radius in polar coordinates
+	float theta;	//Vehicle angle in polar coordinates
+	float z;		//Vehicle altitude in polar coordinates
+	float k_r;		//Field radius gain
+	float k_z;		//Field altitude gain
+	float r_d;		//Desired radius at theta
+	float z_d;		//Desired altitude at theta
+	float r_d_prime;//Derivative of r w/r to theta at theta
+	float z_d_prime;//Derivative or z w/r to theta at theta
+	float rho;		//Parametric coordinate system radius
+	float phi;		//Parametric coordinate system angle
+	float zeta;		//Parametric coordinate system altitude
+	float v1_1;		//Unscaled velocity
+	float v1_2;		//Unscaled velocity
+	float v1_3;		//Unscaled velocity
+	float v_desired;//Desired airspeed
+	float alpha;	//Normalization constant for airspeed
+	float v_r;		//Desired radial velocity
+	float v_theta;	//Desired tangential velocity
+	float v_z;		//Desired climb rate
+	float v_x;		//Inertial x velocity desired
+	float v_y;		//Inertial y velocity desired
+	float delta_chi;//Error in heading
+
+
+	//Calculate cylindrical coordinates of vehicles
+	r = pow((pow(x,2) + pow(y,2),.5);
+	theta = atan2(y,x);
+	z = z;
+
+	//Set vector field gains
+	k_r = 100;
+	k_z = 500;
+
+	//Calculate desired radius and altitude and derivatives at theta
+	r_d = a_r_0 + a_r_1*cos(theta*w_r) + b_r_1*sin(theta*w_r) +
+	               a_r_2*cos(2*theta*w_r) + b_r_2*sin(2*theta*w_r) + a_r_3*cos(3*theta*w_r) + b_r_3*sin(3*theta*w_r) +
+	               a_r_4*cos(4*theta*w_r) + b_r_4*sin(4*theta*w_r) + a_r_5*cos(5*theta*w_r) + b_r_5*sin(5*theta*w_r) +
+	               a_r_6*cos(6*theta*w_r) + b_r_6*sin(6*theta*w_r) + a_r_7*cos(7*theta*w_r) + b_r_7*sin(7*theta*w_r) +
+	               a_r_8*cos(8*theta*w_r) + b_r_8*sin(8*theta*w_r);
+	z_d = a_z_0 + a_z_1*cos(theta*w_z) + b_z_1*sin(theta*w_z) +
+	               a_z_2*cos(2*theta*w_z) + b_z_2*sin(2*theta*w_z) + a_z_3*cos(3*theta*w_z) + b_z_3*sin(3*theta*w_z) +
+	               a_z_4*cos(4*theta*w_z) + b_z_4*sin(4*theta*w_z) + a_z_5*cos(5*theta*w_z) + b_z_5*sin(5*theta*w_z) +
+	               a_z_6*cos(6*theta*w_z) + b_z_6*sin(6*theta*w_z) + a_z_7*cos(7*theta*w_z) + b_z_7*sin(7*theta*w_z) +
+	               a_z_8*cos(8*theta*w_z) + b_z_8*sin(8*theta*w_z);
+	r_d_prime = a_r_prime_0 + a_r_prime_1*cos(theta*w_r_prime) + b_r_prime_1*sin(theta*w_r_prime) +
+	               a_r_prime_2*cos(2*theta*w_r_prime) + b_r_prime_2*sin(2*theta*w_r_prime) + a_r_prime_3*cos(3*theta*w_r_prime) + b_r_prime_3*sin(3*theta*w_r_prime) +
+	               a_r_prime_4*cos(4*theta*w_r_prime) + b_r_prime_4*sin(4*theta*w_r_prime) + a_r_prime_5*cos(5*theta*w_r_prime) + b_r_prime_5*sin(5*theta*w_r_prime) +
+	               a_r_prime_6*cos(6*theta*w_r_prime) + b_r_prime_6*sin(6*theta*w_r_prime) + a_r_prime_7*cos(7*theta*w_r_prime) + b_r_prime_7*sin(7*theta*w_r_prime) +
+	               a_r_prime_8*cos(8*theta*w_r_prime) + b_r_prime_8*sin(8*theta*w_r_prime);
+	z_d_prime = a_z_prime_0 + a_z_prime_1*cos(theta*w_z_prime) + b_z_prime_1*sin(theta*w_z_prime) +
+	               a_z_prime_2*cos(2*theta*w_z_prime) + b_z_prime_2*sin(2*theta*w_z_prime) + a_z_prime_3*cos(3*theta*w_z_prime) + b_z_prime_3*sin(3*theta*w_z_prime) +
+	               a_z_prime_4*cos(4*theta*w_z_prime) + b_z_prime_4*sin(4*theta*w_z_prime) + a_z_prime_5*cos(5*theta*w_z_prime) + b_z_prime_5*sin(5*theta*w_z_prime) +
+	               a_z_prime_6*cos(6*theta*w_z_prime) + b_z_prime_6*sin(6*theta*w_z_prime) + a_z_prime_7*cos(7*theta*w_z_prime) + b_z_prime_7*sin(7*theta*w_z_prime) +
+	               a_z_prime_8*cos(8*theta*w_z_prime) + b_z_prime_8*sin(8*theta*w_z_prime);
+
+	//Calculate parametric coordinate system position               
+	rho = r/r_d;
+	phi = theta;
+	zeta = z/z_d;
+	//Calculate vector field value at current position
+	v1_1 = -k_r*(rho - 1)*r_d + 2*r/r_d *r_d_prime;
+	v1_2 = 2*r;
+	v1_3 = 2*z/z_d * z_d_prime - k_z*(zeta - 1)*z_d;
+	//Normalize to desired speed
+	v_desired = 20;
+	alpha = v_desired/pow((pow(v1_1,2) + pow(v1_2,2) + pow(v1_3,2),0.5);
+	v_r = alpha*v1_1;
+	v_theta = alpha*v1_2;
+	v_z = alpha*v1_3;
+	//Calculate desired inertial velocity 
+	vx = v_r * cos(theta) - v_theta * sin(theta);
+	vy = v_r * sin(theta) + v_theta * cos(theta);
+	//Find error in heading appropriately
+	delta_chi_1 = atan2(vy,vx) - chi;
+	delta_chi_2 = delta_chi_1 + 2*PI;
+	delta_chi_3 = delta_chi_1 - 2*PI;
+
+	delta_chi = delta_chi_1;
+	if(abs(delta_chi_2) < abs(delta_chi))
+	{
+		delta_chi = delta_chi_2;
+	}
+	if(abs(delta_chi_3) < abs(delta_chi))
+	{
+		delta_chi = delta_chi_3;
+	}
+
+	// Assign chi dot gain
+	k_chi = .2;
+	// Calculate commanded turn rate
+	chi_dot = k_chi*(delta_chi);
+	// Set commands
+	u_v = v_desired;
+	u_chi_dot = chi_dot;
+	u_v_z = v_z;
+	// Return command vector
+	float u;
+
+	u[0] = u_v;
+	u[1] = u_chi_dot;
+	u[2] = u_z;
+
+	return u;
+}

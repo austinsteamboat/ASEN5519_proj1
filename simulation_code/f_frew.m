@@ -16,7 +16,8 @@ function [u,path] = f_frew(x)
 % Set the airspeed
 global v;
 
-%% Initialize persistent variables 
+%% Initialize persistent variables
+% These will be hard coded in a header file
 persistent r_theta
 persistent z_theta
 persistent mu_x
@@ -35,7 +36,7 @@ x = x + [randn*0;randn*0;randn*0;randn*0];
 % This section will be done offline for the project, just the Fourier
 % fits will be hardcoded. 
 if isempty(r_theta)
-    path_pts = csvread('path_points.csv');
+    path_pts = csvread('path_to_follow.csv');
     %Calculate mean value of path in order to center on origin
     mu_x = mean(path_pts(:,1));     
     mu_y = mean(path_pts(:,2));
@@ -55,6 +56,7 @@ if isempty(r_theta)
     z_theta = fit(path_pts_polar(:,2),path_pts_polar(:,3),'fourier8');
 end
 
+%% This is where we start coding the C function
 % Translate aircraft coordinates into origin-centered-ellipse coordinate
 % system
 x_trans_1 = x(1:3) - [mu_x;mu_y;mu_z];
@@ -65,7 +67,7 @@ r = sqrt(x_trans_1(1)^2 + x_trans_1(2)^2);
 theta = atan2(x_trans_1(2),x_trans_1(1));
 z = x_trans_1(3);
 % Find the desired velocity command at the current position
-u_vel_1 = calc_field_val(x_trans_1,r_theta,z_theta,v);
+u_vel_1 = calc_field_val(x_trans_1,r_theta,z_theta,v)
 % Convert to inertial velocities
 u_x_vel_1 = u_vel_1(1) * cos(theta) - u_vel_1(2) * sin(theta);
 u_y_vel_1 = u_vel_1(1) * sin(theta) + u_vel_1(2) * cos(theta);
@@ -121,14 +123,11 @@ J = [r_d, r/r_d * r_d_prime,0;0,1,0;0 z/z_d*z_d_prime z_d];
 
 h_q = [-k_r * (rho - 1); 2*rho;-k_z*(xi - 1)];
 
-dx_dt = 0; % This term is zero since the curve isn't time varying
-
 v1 = inv(M_r) * J * M_q * h_q;
-v2 = [0;0;0]; % dx/dt is 0 since curve isn't time varying
 
-alpha =(-v1'*v2 + sqrt((v1'*v2)^2 - (v1'*v1)*(v2'*v2 - v^2)))/(v1'*v1);
+alpha =sqrt((v1'*v1)*(v^2))/(v1'*v1);
 %Calculate the the commanded velocity
-u_vel = alpha * v1 + v2;
+u_vel = alpha * v1;
 end
 
 function chi_dot = turn_rate_limit(chi_dot_commanded,limit)
