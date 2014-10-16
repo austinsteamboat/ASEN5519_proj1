@@ -4,7 +4,7 @@
 #include "stdio.h"
 #define PI 3.141592653589793 // pi
 
-void f_frew(float x, float y, float z, float chi, float frew_com[3])
+float* f_frew(float x, float y, float z, float chi)//,float frew_com[3])
 {
 	//Define all variables
 	float r;		//Vehicle radius in polar coordinates
@@ -108,16 +108,14 @@ void f_frew(float x, float y, float z, float chi, float frew_com[3])
 	float u_chi_dot = chi_dot;
 	float u_z = v_z;
 	// Return command vector
-
-	float u[3];
-
+//	float frew_com[3] = {};	
 	frew_com[0] = u_v;
 	frew_com[1] = u_chi_dot;
 	frew_com[2] = u_z;
 //	u[0] = r;
 //	u[1] = theta;
 //	u = u_v;
-//	return u;
+//	return frew_com;
 }
 
 int main()
@@ -127,7 +125,9 @@ int main()
  float z = 100;
  float chi = 180;
  float frew_com[3];
- frew_com = f_frew(x,y,z,chi,frew_com);
+ f_frew(x,y,z,chi,frew_com);
+// float* frew_com;
+// frew_com = f_frew(x,y,z,chi);
  printf("U V Out is   : %f \n",frew_com[0]);
  printf("U Chi Out is : %f \n",frew_com[1]);
  printf("U Z Out is   : %f \n",frew_com[2]);
