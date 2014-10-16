@@ -1,6 +1,6 @@
-//#ifndef __F_FREW_H__
-//#define __F_FREW_H__ 
-//#endif // added a term
+#ifndef __F_FREW_H__
+#define __F_FREW_H__ 
+#endif // added a term
 #include <math.h>
 #include <stddef.h>
 #include <stdlib.h>

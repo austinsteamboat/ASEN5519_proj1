@@ -1,0 +1,294 @@
+gcc f_frew.cpp -o f_frew.o -lm
+In file included from f_frew.cpp:1:0:
+f_frew.h:1:0: error: unterminated #ifndef
+ #ifndef __F_FREW_H__
+ ^
+In file included from f_frew.cpp:1:0:
+f_frew.h:10:1: error: ‘a_r_0’ does not name a type
+ a_r_0 =519.3924327476;
+ ^
+f_frew.h:12:1: error: ‘a_r_1’ does not name a type
+ a_r_1 =-2.4642711951;
+ ^
+f_frew.h:14:1: error: ‘b_r_1’ does not name a type
+ b_r_1 =-0.0244960964;
+ ^
+f_frew.h:16:1: error: ‘a_r_2’ does not name a type
+ a_r_2 =143.2910522684;
+ ^
+f_frew.h:18:1: error: ‘b_r_2’ does not name a type
+ b_r_2 =0.0000112854;
+ ^
+f_frew.h:20:1: error: ‘a_r_3’ does not name a type
+ a_r_3 =-0.2154122870;
+ ^
+f_frew.h:22:1: error: ‘b_r_3’ does not name a type
+ b_r_3 =-0.0065902172;
+ ^
+f_frew.h:24:1: error: ‘a_r_4’ does not name a type
+ a_r_4 =29.2062652758;
+ ^
+f_frew.h:26:1: error: ‘b_r_4’ does not name a type
+ b_r_4 =-0.0000237458;
+ ^
+f_frew.h:28:1: error: ‘a_r_5’ does not name a type
+ a_r_5 =0.1473033205;
+ ^
+f_frew.h:30:1: error: ‘b_r_5’ does not name a type
+ b_r_5 =-0.0016746834;
+ ^
+f_frew.h:32:1: error: ‘a_r_6’ does not name a type
+ a_r_6 =6.5131878332;
+ ^
+f_frew.h:34:1: error: ‘b_r_6’ does not name a type
+ b_r_6 =-0.0000129006;
+ ^
+f_frew.h:36:1: error: ‘a_r_7’ does not name a type
+ a_r_7 =0.1801427673;
+ ^
+f_frew.h:38:1: error: ‘b_r_7’ does not name a type
+ b_r_7 =-0.0002640185;
+ ^
+f_frew.h:40:1: error: ‘a_r_8’ does not name a type
+ a_r_8 =1.5642623389;
+ ^
+f_frew.h:42:1: error: ‘b_r_8’ does not name a type
+ b_r_8 =0.0000264800;
+ ^
+f_frew.h:44:1: error: ‘w_r’ does not name a type
+ w_r =0.9977231454;
+ ^
+f_frew.h:45:1: error: ‘floata_z_0’ does not name a type
+ floata_z_0;
+ ^
+f_frew.h:46:1: error: ‘a_z_0’ does not name a type
+ a_z_0 =-198.5826833963;
+ ^
+f_frew.h:48:1: error: ‘a_z_1’ does not name a type
+ a_z_1 =17.8053756228;
+ ^
+f_frew.h:50:1: error: ‘b_z_1’ does not name a type
+ b_z_1 =0.0000029406;
+ ^
+f_frew.h:52:1: error: ‘a_z_2’ does not name a type
+ a_z_2 =-0.0211447562;
+ ^
+f_frew.h:54:1: error: ‘b_z_2’ does not name a type
+ b_z_2 =-0.0004613745;
+ ^
+f_frew.h:56:1: error: ‘a_z_3’ does not name a type
+ a_z_3 =2.5754666513;
+ ^
+f_frew.h:58:1: error: ‘b_z_3’ does not name a type
+ b_z_3 =-0.0000076125;
+ ^
+f_frew.h:60:1: error: ‘a_z_4’ does not name a type
+ a_z_4 =0.0251593592;
+ ^
+f_frew.h:62:1: error: ‘b_z_4’ does not name a type
+ b_z_4 =-0.0001109707;
+ ^
+f_frew.h:64:1: error: ‘a_z_5’ does not name a type
+ a_z_5 =0.5195814188;
+ ^
+f_frew.h:66:1: error: ‘b_z_5’ does not name a type
+ b_z_5 =-0.0000120014;
+ ^
+f_frew.h:68:1: error: ‘a_z_6’ does not name a type
+ a_z_6 =0.0219076560;
+ ^
+f_frew.h:70:1: error: ‘b_z_6’ does not name a type
+ b_z_6 =-0.0000114011;
+ ^
+f_frew.h:72:1: error: ‘a_z_7’ does not name a type
+ a_z_7 =0.1132354314;
+ ^
+f_frew.h:74:1: error: ‘b_z_7’ does not name a type
+ b_z_7 =-0.0000207801;
+ ^
+f_frew.h:76:1: error: ‘a_z_8’ does not name a type
+ a_z_8 =0.0169485471;
+ ^
+f_frew.h:78:1: error: ‘b_z_8’ does not name a type
+ b_z_8 =0.0000342395;
+ ^
+f_frew.h:80:1: error: ‘w_z’ does not name a type
+ w_z =0.9943214169;
+ ^
+f_frew.h:82:1: error: ‘a_r_prime_0’ does not name a type
+ a_r_prime_0 =-0.7443754630;
+ ^
+f_frew.h:84:1: error: ‘a_r_prime_1’ does not name a type
+ a_r_prime_1 =0.5624390713;
+ ^
+f_frew.h:86:1: error: ‘b_r_prime_1’ does not name a type
+ b_r_prime_1 =4.9178429594;
+ ^
+f_frew.h:88:1: error: ‘a_r_prime_2’ does not name a type
+ a_r_prime_2 =0.1819855754;
+ ^
+f_frew.h:90:1: error: ‘b_r_prime_2’ does not name a type
+ b_r_prime_2 =3.6496871343;
+ ^
+f_frew.h:92:1: error: ‘a_r_prime_3’ does not name a type
+ a_r_prime_3 =-0.0709058118;
+ ^
+f_frew.h:94:1: error: ‘b_r_prime_3’ does not name a type
+ b_r_prime_3 =-23.9351345658;
+ ^
+f_frew.h:96:1: error: ‘a_r_prime_4’ does not name a type
+ a_r_prime_4 =0.4626215953;
+ ^
+f_frew.h:98:1: error: ‘b_r_prime_4’ does not name a type
+ b_r_prime_4 =2.0064765397;
+ ^
+f_frew.h:100:1: error: ‘a_r_prime_5’ does not name a type
+ a_r_prime_5 =0.3773988457;
+ ^
+f_frew.h:102:1: error: ‘b_r_prime_5’ does not name a type
+ b_r_prime_5 =-31.0025062348;
+ ^
+f_frew.h:104:1: error: ‘a_r_prime_6’ does not name a type
+ a_r_prime_6 =-0.0127918240;
+ ^
+f_frew.h:106:1: error: ‘b_r_prime_6’ does not name a type
+ b_r_prime_6 =17.2910951086;
+ ^
+f_frew.h:108:1: error: ‘a_r_prime_7’ does not name a type
+ a_r_prime_7 =-0.5016884950;
+ ^
+f_frew.h:110:1: error: ‘b_r_prime_7’ does not name a type
+ b_r_prime_7 =-94.1051806476;
+ ^
+f_frew.h:112:1: error: ‘a_r_prime_8’ does not name a type
+ a_r_prime_8 =-0.1058901385;
+ ^
+f_frew.h:114:1: error: ‘b_r_prime_8’ does not name a type
+ b_r_prime_8 =-45.3463310611;
+ ^
+f_frew.h:116:1: error: ‘w_r_prime’ does not name a type
+ w_r_prime =15.8329002154;
+ ^
+f_frew.h:117:1: error: ‘floata_z_prime_0’ does not name a type
+ floata_z_prime_0;
+ ^
+f_frew.h:118:1: error: ‘a_z_prime_0’ does not name a type
+ a_z_prime_0 =-0.7443754630;
+ ^
+f_frew.h:120:1: error: ‘a_z_prime_1’ does not name a type
+ a_z_prime_1 =0.5624390713;
+ ^
+f_frew.h:122:1: error: ‘b_z_prime_1’ does not name a type
+ b_z_prime_1 =4.9178429594;
+ ^
+f_frew.h:124:1: error: ‘a_z_prime_2’ does not name a type
+ a_z_prime_2 =0.1819855754;
+ ^
+f_frew.h:126:1: error: ‘b_z_prime_2’ does not name a type
+ b_z_prime_2 =3.6496871343;
+ ^
+f_frew.h:128:1: error: ‘a_z_prime_3’ does not name a type
+ a_z_prime_3 =-0.0709058118;
+ ^
+f_frew.h:130:1: error: ‘b_z_prime_3’ does not name a type
+ b_z_prime_3 =-23.9351345658;
+ ^
+f_frew.h:132:1: error: ‘a_z_prime_4’ does not name a type
+ a_z_prime_4 =0.4626215953;
+ ^
+f_frew.h:134:1: error: ‘b_z_prime_4’ does not name a type
+ b_z_prime_4 =2.0064765397;
+ ^
+f_frew.h:136:1: error: ‘a_z_prime_5’ does not name a type
+ a_z_prime_5 =0.3773988457;
+ ^
+f_frew.h:138:1: error: ‘b_z_prime_5’ does not name a type
+ b_z_prime_5 =-31.0025062348;
+ ^
+f_frew.h:140:1: error: ‘a_z_prime_6’ does not name a type
+ a_z_prime_6 =-0.0127918240;
+ ^
+f_frew.h:142:1: error: ‘b_z_prime_6’ does not name a type
+ b_z_prime_6 =17.2910951086;
+ ^
+f_frew.h:144:1: error: ‘a_z_prime_7’ does not name a type
+ a_z_prime_7 =-0.5016884950;
+ ^
+f_frew.h:146:1: error: ‘b_z_prime_7’ does not name a type
+ b_z_prime_7 =-94.1051806476;
+ ^
+f_frew.h:148:1: error: ‘a_z_prime_8’ does not name a type
+ a_z_prime_8 =-0.1058901385;
+ ^
+f_frew.h:150:1: error: ‘b_z_prime_8’ does not name a type
+ b_z_prime_8 =-45.3463310611;
+ ^
+f_frew.h:152:1: error: ‘w_z_prime’ does not name a type
+ w_z_prime =15.8329002154;
+ ^
+f_frew.cpp: In function ‘float* f_frew(float, float, float, float)’:
+f_frew.cpp:11:8: error: declaration of ‘float z’ shadows a parameter
+  float z;  //Vehicle altitude in polar coordinates
+        ^
+f_frew.cpp:35:34: error: expected ‘)’ before ‘;’ token
+  r = pow((pow(x,2) + pow(y,2),.5);
+                                  ^
+f_frew.cpp:49:8: error: ‘a_z_0’ was not declared in this scope
+  z_d = a_z_0 + a_z_1*cos(theta*w_z) + b_z_1*sin(theta*w_z) +
+        ^
+f_frew.cpp:59:14: error: ‘a_z_prime_0’ was not declared in this scope
+  z_d_prime = a_z_prime_0 + a_z_prime_1*cos(theta*w_z_prime) + b_z_prime_1*sin(theta*w_z_prime) +
+              ^
+f_frew.cpp:75:69: error: expected ‘)’ before ‘;’ token
+  alpha = v_desired/pow((pow(v1_1,2) + pow(v1_2,2) + pow(v1_3,2),0.5);
+                                                                     ^
+f_frew.cpp:80:2: error: ‘vx’ was not declared in this scope
+  vx = v_r * cos(theta) - v_theta * sin(theta);
+  ^
+f_frew.cpp:81:2: error: ‘vy’ was not declared in this scope
+  vy = v_r * sin(theta) + v_theta * cos(theta);
+  ^
+f_frew.cpp:83:2: error: ‘delta_chi_1’ was not declared in this scope
+  delta_chi_1 = atan2(vy,vx) - chi;
+  ^
+f_frew.cpp:84:2: error: ‘delta_chi_2’ was not declared in this scope
+  delta_chi_2 = delta_chi_1 + 2*PI;
+  ^
+f_frew.cpp:84:32: error: ‘PI’ was not declared in this scope
+  delta_chi_2 = delta_chi_1 + 2*PI;
+                                ^
+f_frew.cpp:85:2: error: ‘delta_chi_3’ was not declared in this scope
+  delta_chi_3 = delta_chi_1 - 2*PI;
+  ^
+f_frew.cpp:98:2: error: ‘k_chi’ was not declared in this scope
+  k_chi = .2;
+  ^
+f_frew.cpp:100:2: error: ‘chi_dot’ was not declared in this scope
+  chi_dot = k_chi*(delta_chi);
+  ^
+f_frew.cpp:102:2: error: ‘u_v’ was not declared in this scope
+  u_v = v_desired;
+  ^
+f_frew.cpp:103:2: error: ‘u_chi_dot’ was not declared in this scope
+  u_chi_dot = chi_dot;
+  ^
+f_frew.cpp:104:2: error: ‘u_v_z’ was not declared in this scope
+  u_v_z = v_z;
+  ^
+f_frew.cpp:108:5: error: invalid types ‘float[int]’ for array subscript
+  u[0] = u_v;
+     ^
+f_frew.cpp:109:5: error: invalid types ‘float[int]’ for array subscript
+  u[1] = u_chi_dot;
+     ^
+f_frew.cpp:110:5: error: invalid types ‘float[int]’ for array subscript
+  u[2] = u_z;
+     ^
+f_frew.cpp:110:9: error: ‘u_z’ was not declared in this scope
+  u[2] = u_z;
+         ^
+f_frew.cpp:112:9: error: cannot convert ‘float’ to ‘float*’ in return
+  return u;
+         ^
+make: *** [all] Error 1
+

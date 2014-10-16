@@ -127,7 +127,7 @@ int main()
  float z = 100;
  float chi = 180;
  float frew_com[3];
- f_frew(x,y,z,chi,frew_com);
+ frew_com = f_frew(x,y,z,chi,frew_com);
  printf("U V Out is   : %f \n",frew_com[0]);
  printf("U Chi Out is : %f \n",frew_com[1]);
  printf("U Z Out is   : %f \n",frew_com[2]);
