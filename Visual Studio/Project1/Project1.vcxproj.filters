@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\Git_Clones\ardupilot\ArduPlane\ArduPlane.pde" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Common\AP_Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Progmem\AP_Progmem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_HAL\AP_HAL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Menu\AP_Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Param\AP_Param.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_GPS\AP_GPS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Baro\AP_Baro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Compass\AP_Compass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Math\AP_Math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_ADC\AP_ADC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_ADC_AnalogSource\AP_ADC_AnalogSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_InertialSensor\AP_InertialSensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_AHRS\AP_AHRS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\PID\PID.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\RC_Channel\RC_Channel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_RangeFinder\AP_RangeFinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\Filter\Filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Buffer\AP_Buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Relay\AP_Relay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Camera\AP_Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Airspeed\AP_Airspeed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\memcheck\memcheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\APM_OBC\APM_OBC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\APM_Control\APM_Control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\GCS_MAVLink\GCS_MAVLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Mount\AP_Mount.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Declination\AP_Declination.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\DataFlash\DataFlash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\SITL\SITL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Navigation\AP_Navigation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_L1_Control\AP_L1_Control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_HAL_AVR\AP_HAL_AVR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_HAL_AVR_SITL\AP_HAL_AVR_SITL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_HAL_PX4\AP_HAL_PX4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_HAL_Empty\AP_HAL_Empty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

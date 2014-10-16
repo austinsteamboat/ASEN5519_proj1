@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D7FE6CF9-9E96-4499-AF49-4F05BDB299CD}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+    <ProjectName>Arduplane_Code</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="F:\Git_Clones\ardupilot\ArduPlane\ArduPlane.pde" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\APM_Control\APM_Control.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\APM_OBC\APM_OBC.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_ADC\AP_ADC.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_ADC_AnalogSource\AP_ADC_AnalogSource.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_AHRS\AP_AHRS.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Airspeed\AP_Airspeed.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Baro\AP_Baro.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Buffer\AP_Buffer.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Camera\AP_Camera.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Common\AP_Common.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Compass\AP_Compass.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Declination\AP_Declination.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_GPS\AP_GPS.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_HAL\AP_HAL.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_HAL_AVR\AP_HAL_AVR.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_HAL_AVR_SITL\AP_HAL_AVR_SITL.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_HAL_Empty\AP_HAL_Empty.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_HAL_PX4\AP_HAL_PX4.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_InertialSensor\AP_InertialSensor.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_L1_Control\AP_L1_Control.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Math\AP_Math.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Menu\AP_Menu.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Mount\AP_Mount.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Navigation\AP_Navigation.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Param\AP_Param.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Progmem\AP_Progmem.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_RangeFinder\AP_RangeFinder.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\AP_Relay\AP_Relay.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\DataFlash\DataFlash.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\Filter\Filter.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\GCS_MAVLink\GCS_MAVLink.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\memcheck\memcheck.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\PID\PID.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\RC_Channel\RC_Channel.h" />
+    <ClInclude Include="F:\Git_Clones\ardupilot\libraries\SITL\SITL.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
