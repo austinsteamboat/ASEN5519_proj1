@@ -1,0 +1,1189 @@
+<NotepadPlus>
+    <Project name="Arduplane">
+        <Folder name="Arduplane">
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\APM_Config.h" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\APM_Config.h.reference" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\ArduPlane.pde" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\Attitude.pde" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\climb_rate.pde" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\commands.pde" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\commands_logic.pde" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\commands_process.pde" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\command_description.txt" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\compat.h" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\compat.pde" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\config.h" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\control_modes.pde" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\createTags" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\defines.h" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\events.pde" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\failsafe.pde" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\GCS.h" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\GCS_Mavlink.pde" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\geofence.pde" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\Log.pde" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\Makefile" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\navigation.pde" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\nocore.inoflag" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\Parameters.h" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\Parameters.pde" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\radio.pde" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\sensors.pde" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\setup.pde" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\system.pde" />
+            <File name="C:\Users\Josh\Desktop\ardupilot\ArduPlane\test.pde" />
+        </Folder>
+        <Folder name="Libraries">
+            <Folder name="AC_Fence">
+                <Folder name="examples">
+                    <Folder name="AC_Fence_test">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AC_Fence\examples\AC_Fence_test\AC_Fence_test.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AC_Fence\examples\AC_Fence_test\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AC_Fence\examples\AC_Fence_test\nocore.inoflag" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AC_Fence\AC_Fence.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AC_Fence\AC_Fence.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AC_Fence\keywords.txt" />
+            </Folder>
+            <Folder name="AC_PID">
+                <Folder name="examples">
+                    <Folder name="AC_PID_test">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AC_PID\examples\AC_PID_test\AC_PID_test.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AC_PID\examples\AC_PID_test\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AC_PID\examples\AC_PID_test\nocore.inoflag" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AC_PID\AC_PID.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AC_PID\AC_PID.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AC_PID\keywords.txt" />
+            </Folder>
+            <Folder name="AC_WPNav">
+                <Folder name="examples">
+                    <Folder name="AC_WPNav_test">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AC_WPNav\examples\AC_WPNav_test\AC_WPNav_test.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AC_WPNav\examples\AC_WPNav_test\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AC_WPNav\examples\AC_WPNav_test\nocore.inoflag" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AC_WPNav\AC_WPNav.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AC_WPNav\AC_WPNav.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AC_WPNav\keywords.txt" />
+            </Folder>
+            <Folder name="APM_Control">
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\APM_Control\APM_Control.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\APM_Control\AP_PitchController.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\APM_Control\AP_PitchController.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\APM_Control\AP_RollController.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\APM_Control\AP_RollController.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\APM_Control\AP_YawController.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\APM_Control\AP_YawController.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\APM_Control\TuningGuide.txt" />
+            </Folder>
+            <Folder name="APM_OBC">
+                <Folder name="examples">
+                    <Folder name="trivial_APM_OBC">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\APM_OBC\examples\trivial_APM_OBC\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\APM_OBC\examples\trivial_APM_OBC\nocore.inoflag" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\APM_OBC\examples\trivial_APM_OBC\trivial_APM_OBC.pde" />
+                    </Folder>
+                </Folder>
+                <Folder name="Failsafe_Board">
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\APM_OBC\Failsafe_Board\Failsafe_Board.pde" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\APM_OBC\Failsafe_Board\Makefile" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\APM_OBC\Failsafe_Board\nobuild.txt" />
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\APM_OBC\APM_OBC.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\APM_OBC\APM_OBC.h" />
+            </Folder>
+            <Folder name="APM_PI">
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\APM_PI\APM_PI.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\APM_PI\APM_PI.h" />
+            </Folder>
+            <Folder name="AP_ADC">
+                <Folder name="examples">
+                    <Folder name="AP_ADC_test">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_ADC\examples\AP_ADC_test\AP_ADC_test.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_ADC\examples\AP_ADC_test\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_ADC\examples\AP_ADC_test\nocore.inoflag" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_ADC\AP_ADC.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_ADC\AP_ADC.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_ADC\AP_ADC_ADS7844.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_ADC\AP_ADC_ADS7844.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_ADC\AP_ADC_HIL.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_ADC\AP_ADC_HIL.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_ADC\keywords.txt" />
+            </Folder>
+            <Folder name="AP_ADC_AnalogSource">
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_ADC_AnalogSource\AP_ADC_AnalogSource.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_ADC_AnalogSource\AP_ADC_AnalogSource.h" />
+            </Folder>
+            <Folder name="AP_AHRS">
+                <Folder name="examples">
+                    <Folder name="AHRS_Test">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_AHRS\examples\AHRS_Test\AHRS_Test.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_AHRS\examples\AHRS_Test\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_AHRS\examples\AHRS_Test\nocore.inoflag" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_AHRS\examples\AHRS_Test\norelax.inoflag" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_AHRS\AP_AHRS.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_AHRS\AP_AHRS.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_AHRS\AP_AHRS_DCM.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_AHRS\AP_AHRS_DCM.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_AHRS\AP_AHRS_HIL.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_AHRS\AP_AHRS_HIL.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_AHRS\AP_AHRS_MPU6000.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_AHRS\AP_AHRS_MPU6000.h" />
+            </Folder>
+            <Folder name="AP_Airspeed">
+                <Folder name="examples">
+                    <Folder name="Airspeed">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Airspeed\examples\Airspeed\Airspeed.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Airspeed\examples\Airspeed\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Airspeed\examples\Airspeed\nocore.inoflag" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Airspeed\AP_Airspeed.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Airspeed\AP_Airspeed.h" />
+            </Folder>
+            <Folder name="AP_Baro">
+                <Folder name="examples">
+                    <Folder name="AP_Baro_BMP085_test">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Baro\examples\AP_Baro_BMP085_test\AP_Baro_BMP085_test.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Baro\examples\AP_Baro_BMP085_test\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Baro\examples\AP_Baro_BMP085_test\nocore.inoflag" />
+                    </Folder>
+                    <Folder name="AP_Baro_MS5611_test">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Baro\examples\AP_Baro_MS5611_test\AP_Baro_MS5611_test.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Baro\examples\AP_Baro_MS5611_test\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Baro\examples\AP_Baro_MS5611_test\nocore.inoflag" />
+                    </Folder>
+                    <Folder name="AP_Baro_PX4_test">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Baro\examples\AP_Baro_PX4_test\AP_Baro_PX4_test.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Baro\examples\AP_Baro_PX4_test\Makefile" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Baro\AP_Baro.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Baro\AP_Baro.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Baro\AP_Baro_BMP085.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Baro\AP_Baro_BMP085.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Baro\AP_Baro_HIL.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Baro\AP_Baro_HIL.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Baro\AP_Baro_MS5611.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Baro\AP_Baro_MS5611.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Baro\AP_Baro_PX4.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Baro\AP_Baro_PX4.h" />
+            </Folder>
+            <Folder name="AP_Buffer">
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Buffer\AP_Buffer.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Buffer\AP_Buffer.h" />
+            </Folder>
+            <Folder name="AP_Camera">
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Camera\AP_Camera.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Camera\AP_Camera.h" />
+            </Folder>
+            <Folder name="AP_Common">
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Common\AP_Common.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Common\AP_Test.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Common\Arduino.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Common\c++.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Common\keywords.txt" />
+            </Folder>
+            <Folder name="AP_Compass">
+                <Folder name="examples">
+                    <Folder name="AP_Compass_test">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Compass\examples\AP_Compass_test\AP_Compass_test.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Compass\examples\AP_Compass_test\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Compass\examples\AP_Compass_test\nocore.inoflag" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Compass\AP_Compass.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Compass\AP_Compass_HIL.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Compass\AP_Compass_HIL.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Compass\AP_Compass_HMC5843.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Compass\AP_Compass_HMC5843.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Compass\AP_Compass_PX4.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Compass\AP_Compass_PX4.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Compass\Compass.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Compass\Compass.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Compass\keywords.txt" />
+            </Folder>
+            <Folder name="AP_Curve">
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Curve\AP_Curve.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Curve\AP_Curve.h" />
+            </Folder>
+            <Folder name="AP_Declination">
+                <Folder name="examples">
+                    <Folder name="AP_Declination_test">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Declination\examples\AP_Declination_test\AP_Declination_test.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Declination\examples\AP_Declination_test\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Declination\examples\AP_Declination_test\nocore.inoflag" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Declination\AP_Declination.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Declination\AP_Declination.h" />
+            </Folder>
+            <Folder name="AP_GPS">
+                <Folder name="config">
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\config\3DR-Ublox.txt" />
+                </Folder>
+                <Folder name="examples">
+                    <Folder name="GPS_406_test">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\examples\GPS_406_test\GPS_406_test.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\examples\GPS_406_test\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\examples\GPS_406_test\nocore.inoflag" />
+                    </Folder>
+                    <Folder name="GPS_AUTO_test">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\examples\GPS_AUTO_test\GPS_AUTO_test.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\examples\GPS_AUTO_test\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\examples\GPS_AUTO_test\nocore.inoflag" />
+                    </Folder>
+                    <Folder name="GPS_MTK_test">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\examples\GPS_MTK_test\GPS_MTK_test.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\examples\GPS_MTK_test\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\examples\GPS_MTK_test\nocore.inoflag" />
+                    </Folder>
+                    <Folder name="GPS_NMEA_test">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\examples\GPS_NMEA_test\GPS_NMEA_test.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\examples\GPS_NMEA_test\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\examples\GPS_NMEA_test\nocore.inoflag" />
+                    </Folder>
+                    <Folder name="GPS_UBLOX_test">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\examples\GPS_UBLOX_test\GPS_UBLOX_test.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\examples\GPS_UBLOX_test\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\examples\GPS_UBLOX_test\nocore.inoflag" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\AP_GPS.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\AP_GPS_406.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\AP_GPS_406.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\AP_GPS_Auto.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\AP_GPS_Auto.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\AP_GPS_HIL.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\AP_GPS_HIL.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\AP_GPS_MTK.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\AP_GPS_MTK.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\AP_GPS_MTK19.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\AP_GPS_MTK19.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\AP_GPS_MTK_Common.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\AP_GPS_NMEA.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\AP_GPS_NMEA.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\AP_GPS_None.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\AP_GPS_SIRF.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\AP_GPS_SIRF.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\AP_GPS_UBLOX.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\AP_GPS_UBLOX.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\GPS.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_GPS\GPS.h" />
+            </Folder>
+            <Folder name="AP_HAL">
+                <Folder name="examples">
+                    <Folder name="AnalogIn">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL\examples\AnalogIn\AnalogIn.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL\examples\AnalogIn\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL\examples\AnalogIn\nocore.inoflag" />
+                    </Folder>
+                </Folder>
+                <Folder name="utility">
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL\utility\BetterStream.h" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL\utility\Print.cpp" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL\utility\Print.h" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL\utility\Stream.h" />
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL\AnalogIn.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL\AP_HAL.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL\AP_HAL_Boards.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL\AP_HAL_Macros.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL\AP_HAL_Namespace.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL\Console.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL\GPIO.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL\HAL.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL\I2CDriver.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL\RCInput.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL\RCOutput.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL\Scheduler.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL\Semaphores.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL\SPIDriver.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL\Storage.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL\UARTDriver.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL\Util.h" />
+            </Folder>
+            <Folder name="AP_HAL_AVR">
+                <Folder name="examples">
+                    <Folder name="ArduCopterLibs">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\ArduCopterLibs\ArduCopterLibs.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\ArduCopterLibs\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\ArduCopterLibs\nocore.inoflag" />
+                    </Folder>
+                    <Folder name="ArduPlaneLibs">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\ArduPlaneLibs\ArduPlaneLibs.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\ArduPlaneLibs\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\ArduPlaneLibs\nocore.inoflag" />
+                    </Folder>
+                    <Folder name="Blink">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\Blink\Blink.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\Blink\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\Blink\nocore.inoflag" />
+                    </Folder>
+                    <Folder name="Console">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\Console\Console.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\Console\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\Console\nocore.inoflag" />
+                    </Folder>
+                    <Folder name="I2CDriver_HMC5883L">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\I2CDriver_HMC5883L\I2CDriver_HMC5883L.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\I2CDriver_HMC5883L\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\I2CDriver_HMC5883L\nocore.inoflag" />
+                    </Folder>
+                    <Folder name="LCDTest">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\LCDTest\LCDTest.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\LCDTest\LCrystal.cpp" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\LCDTest\LCrystal.h" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\LCDTest\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\LCDTest\nocore.inoflag" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\LCDTest\README" />
+                    </Folder>
+                    <Folder name="RCInputTest">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\RCInputTest\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\RCInputTest\nocore.inoflag" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\RCInputTest\RCInputTest.pde" />
+                    </Folder>
+                    <Folder name="RCJitterTest">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\RCJitterTest\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\RCJitterTest\nocore.inoflag" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\RCJitterTest\RCJitterTest.pde" />
+                    </Folder>
+                    <Folder name="RCPassthroughTest">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\RCPassthroughTest\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\RCPassthroughTest\nocore.inoflag" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\RCPassthroughTest\RCPassthroughTest.pde" />
+                    </Folder>
+                    <Folder name="Scheduler">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\Scheduler\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\Scheduler\nocore.inoflag" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\Scheduler\Scheduler.pde" />
+                    </Folder>
+                    <Folder name="Semaphore">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\Semaphore\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\Semaphore\nocore.inoflag" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\Semaphore\Semaphore.pde" />
+                    </Folder>
+                    <Folder name="SPIDriver_MPU6000">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\SPIDriver_MPU6000\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\SPIDriver_MPU6000\MPU6000.h" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\SPIDriver_MPU6000\nocore.inoflag" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\SPIDriver_MPU6000\SPIDriver_MPU6000.pde" />
+                    </Folder>
+                    <Folder name="Storage">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\Storage\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\Storage\nocore.inoflag" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\Storage\Storage.pde" />
+                    </Folder>
+                    <Folder name="UARTDriver">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\UARTDriver\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\UARTDriver\nocore.inoflag" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\UARTDriver\UARTDriver.pde" />
+                    </Folder>
+                    <Folder name="UtilityStringTest">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\UtilityStringTest\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\UtilityStringTest\nocore.inoflag" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\examples\UtilityStringTest\UtilityStringTest.pde" />
+                    </Folder>
+                </Folder>
+                <Folder name="utility">
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\utility\ftoa_engine.h" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\utility\ftoa_engine.S" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\utility\ISRRegistry.cpp" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\utility\ISRRegistry.h" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\utility\macros.inc" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\utility\ntz.h" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\utility\pins_arduino_mega.c" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\utility\pins_arduino_mega.h" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\utility\print_vprintf.cpp" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\utility\print_vprintf.h" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\utility\ultoa_invert.S" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\utility\xtoa_fast.h" />
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\AnalogIn.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\AnalogIn_ADC.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\AnalogIn_Common.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\AP_HAL_AVR.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\AP_HAL_AVR_Main.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\AP_HAL_AVR_Namespace.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\AP_HAL_AVR_private.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\build_all.sh" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\Console.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\Console.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\GPIO.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\GPIO.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\HAL_AVR_APM1_Class.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\HAL_AVR_APM1_Class.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\HAL_AVR_APM2_Class.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\HAL_AVR_APM2_Class.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\I2CDriver.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\I2CDriver.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\RCInput.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\RCInput_APM1.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\RCInput_APM2.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\RCOutput.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\RCOutput_APM1.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\RCOutput_APM2.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\Scheduler.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\Scheduler.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\Scheduler_Timer.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\Semaphores.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\Semaphores.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\SPIDeviceManager_APM1.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\SPIDeviceManager_APM2.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\SPIDevices.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\SPIDevice_SPI0.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\SPIDevice_SPI2.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\SPIDevice_SPI3.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\SPIDriver.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\Storage.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\Storage.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\UARTDriver.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\UARTDriver.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\Util.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR\Util.h" />
+            </Folder>
+            <Folder name="AP_HAL_AVR_SITL">
+                <Folder name="utility">
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\utility\print_vprintf.cpp" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\utility\print_vprintf.h" />
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\AnalogIn.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\AnalogIn.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\AP_HAL_AVR_SITL.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\AP_HAL_AVR_SITL_Main.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\AP_HAL_AVR_SITL_Namespace.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\AP_HAL_AVR_SITL_Private.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\Console.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\Console.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\HAL_AVR_SITL_Class.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\HAL_AVR_SITL_Class.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\RCInput.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\RCInput.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\RCOutput.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\RCOutput.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\Scheduler.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\Scheduler.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\sitl_barometer.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\sitl_compass.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\sitl_gps.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\sitl_ins.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\SITL_State.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\SITL_State.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\Storage.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\Storage.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\UARTDriver.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\UARTDriver.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\Util.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_AVR_SITL\Util.h" />
+            </Folder>
+            <Folder name="AP_HAL_Empty">
+                <Folder name="examples">
+                    <Folder name="empty_example">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\examples\empty_example\empty_example.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\examples\empty_example\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\examples\empty_example\nocore.inoflag" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\AnalogIn.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\AnalogIn.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\AP_HAL_Empty.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\AP_HAL_Empty_Main.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\AP_HAL_Empty_Namespace.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\AP_HAL_Empty_Private.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\Console.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\Console.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\GPIO.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\GPIO.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\HAL_Empty_Class.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\HAL_Empty_Class.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\I2CDriver.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\I2CDriver.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\PrivateMember.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\PrivateMember.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\RCInput.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\RCInput.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\RCOutput.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\RCOutput.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\Scheduler.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\Scheduler.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\Semaphores.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\Semaphores.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\SPIDriver.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\SPIDriver.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\Storage.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\Storage.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\UARTDriver.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\UARTDriver.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\Util.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_Empty\Util.h" />
+            </Folder>
+            <Folder name="AP_HAL_PX4">
+                <Folder name="examples">
+                    <Folder name="simple">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_PX4\examples\simple\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_PX4\examples\simple\nocore.inoflag" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_PX4\examples\simple\simple.pde" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_PX4\AnalogIn.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_PX4\AnalogIn.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_PX4\AP_HAL_PX4.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_PX4\AP_HAL_PX4_Main.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_PX4\AP_HAL_PX4_Namespace.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_PX4\Console.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_PX4\Console.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_PX4\HAL_PX4_Class.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_PX4\HAL_PX4_Class.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_PX4\RCInput.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_PX4\RCInput.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_PX4\RCOutput.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_PX4\RCOutput.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_PX4\Scheduler.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_PX4\Scheduler.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_PX4\Storage.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_PX4\Storage.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_PX4\UARTDriver.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_PX4\UARTDriver.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_PX4\Util.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_PX4\Util.h" />
+            </Folder>
+            <Folder name="AP_HAL_SMACCM">
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\AnalogIn.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\AnalogIn.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\AP_HAL_SMACCM.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\AP_HAL_SMACCM_Main.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\AP_HAL_SMACCM_Main.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\AP_HAL_SMACCM_Namespace.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\AP_HAL_SMACCM_Private.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\Console.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\Console.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\GPIO.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\GPIO.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\HAL_SMACCM_Class.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\HAL_SMACCM_Class.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\I2CDriver.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\I2CDriver.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\LICENSE" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\PrivateMember.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\PrivateMember.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\RCInput.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\RCInput.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\RCOutput.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\RCOutput.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\Scheduler.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\Scheduler.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\Semaphores.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\Semaphores.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\SPIDriver.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\SPIDriver.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\Storage.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\Storage.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\UARTDriver.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\UARTDriver.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\Util.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_HAL_SMACCM\Util.h" />
+            </Folder>
+            <Folder name="AP_InertialNav">
+                <Folder name="examples">
+                    <Folder name="AP_InertialNav_test">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialNav\examples\AP_InertialNav_test\AP_InertialNav_test.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialNav\examples\AP_InertialNav_test\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialNav\examples\AP_InertialNav_test\nocore.infoflag" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialNav\examples\AP_InertialNav_test\norelax.inoflag" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialNav\AP_InertialNav.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialNav\AP_InertialNav.h" />
+            </Folder>
+            <Folder name="AP_InertialSensor">
+                <Folder name="examples">
+                    <Folder name="MPU6000">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\examples\MPU6000\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\examples\MPU6000\MPU6000.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\examples\MPU6000\nocore.inoflag" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\examples\MPU6000\norelax.inoflag" />
+                    </Folder>
+                    <Folder name="OilPan">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\examples\OilPan\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\examples\OilPan\nocore.inoflag" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\examples\OilPan\norelax.inoflag" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\examples\OilPan\OilPan.pde" />
+                    </Folder>
+                    <Folder name="PX4">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\examples\PX4\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\examples\PX4\PX4.pde" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\AP_InertialSensor.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\AP_InertialSensor.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\AP_InertialSensor_MPU6000.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\AP_InertialSensor_MPU6000.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\AP_InertialSensor_Oilpan.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\AP_InertialSensor_Oilpan.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\AP_InertialSensor_PX4.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\AP_InertialSensor_PX4.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\AP_InertialSensor_Stub.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\AP_InertialSensor_Stub.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\AP_InertialSensor_UserInteract.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\AP_InertialSensor_UserInteract_MAVLink.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\AP_InertialSensor_UserInteract_MAVLink.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\AP_InertialSensor_UserInteract_Stream.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_InertialSensor\AP_InertialSensor_UserInteract_Stream.h" />
+            </Folder>
+            <Folder name="AP_L1_Control">
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_L1_Control\AP_L1_Control.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_L1_Control\AP_L1_Control.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_L1_Control\keywords.txt" />
+            </Folder>
+            <Folder name="AP_LeadFilter">
+                <Folder name="examples">
+                    <Folder name="AP_LeadFilter">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_LeadFilter\examples\AP_LeadFilter\AP_LeadFilter.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_LeadFilter\examples\AP_LeadFilter\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_LeadFilter\examples\AP_LeadFilter\nocore.inoflag" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_LeadFilter\AP_LeadFilter.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_LeadFilter\AP_LeadFilter.h" />
+            </Folder>
+            <Folder name="AP_Limits">
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Limits\AP_Limits.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Limits\AP_Limits.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Limits\AP_Limit_Altitude.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Limits\AP_Limit_Altitude.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Limits\AP_Limit_Geofence.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Limits\AP_Limit_Geofence.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Limits\AP_Limit_GPSLock.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Limits\AP_Limit_GPSLock.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Limits\AP_Limit_Module.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Limits\AP_Limit_Module.h" />
+            </Folder>
+            <Folder name="AP_Math">
+                <Folder name="examples">
+                    <Folder name="eulers">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\examples\eulers\eulers.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\examples\eulers\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\examples\eulers\nocore.inoflag" />
+                    </Folder>
+                    <Folder name="location">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\examples\location\location.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\examples\location\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\examples\location\nocore.inoflag" />
+                    </Folder>
+                    <Folder name="polygon">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\examples\polygon\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\examples\polygon\nocore.inoflag" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\examples\polygon\polygon.pde" />
+                    </Folder>
+                    <Folder name="rotations">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\examples\rotations\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\examples\rotations\nocore.inoflag" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\examples\rotations\rotations.pde" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\AP_Math.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\AP_Math.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\AP_Math_AVR_Compat.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\keywords.txt" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\location.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\matrix3.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\matrix3.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\polygon.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\polygon.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\quaternion.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\quaternion.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\rotations.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\vector2.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\vector2.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\vector3.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Math\vector3.h" />
+            </Folder>
+            <Folder name="AP_Menu">
+                <Folder name="examples">
+                    <Folder name="menu">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Menu\examples\menu\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Menu\examples\menu\menu.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Menu\examples\menu\nocore.inoflag" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Menu\AP_Menu.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Menu\AP_Menu.h" />
+            </Folder>
+            <Folder name="AP_Motors">
+                <Folder name="examples">
+                    <Folder name="AP_Motors_test">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Motors\examples\AP_Motors_test\AP_Motors_test.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Motors\examples\AP_Motors_test\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Motors\examples\AP_Motors_test\nocore.inoflag" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Motors\AP_Motors.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Motors\AP_MotorsHeli.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Motors\AP_MotorsHeli.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Motors\AP_MotorsHexa.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Motors\AP_MotorsHexa.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Motors\AP_MotorsMatrix.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Motors\AP_MotorsMatrix.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Motors\AP_MotorsOcta.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Motors\AP_MotorsOcta.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Motors\AP_MotorsOctaQuad.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Motors\AP_MotorsOctaQuad.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Motors\AP_MotorsQuad.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Motors\AP_MotorsQuad.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Motors\AP_MotorsTri.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Motors\AP_MotorsTri.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Motors\AP_MotorsY6.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Motors\AP_MotorsY6.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Motors\AP_Motors_Class.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Motors\AP_Motors_Class.h" />
+            </Folder>
+            <Folder name="AP_Mount">
+                <Folder name="examples">
+                    <Folder name="trivial_AP_Mount">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Mount\examples\trivial_AP_Mount\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Mount\examples\trivial_AP_Mount\nocore.inoflag" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Mount\examples\trivial_AP_Mount\trivial_AP_Mount.pde" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Mount\AP_Mount.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Mount\AP_Mount.h" />
+            </Folder>
+            <Folder name="AP_Navigation">
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Navigation\AP_Navigation.h" />
+            </Folder>
+            <Folder name="AP_OpticalFlow">
+                <Folder name="examples">
+                    <Folder name="ADNS3080ImageGrabber">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_OpticalFlow\examples\ADNS3080ImageGrabber\ADNS3080ImageGrabber.py" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_OpticalFlow\examples\ADNS3080ImageGrabber\README.txt" />
+                    </Folder>
+                    <Folder name="AP_OpticalFlow_test">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_OpticalFlow\examples\AP_OpticalFlow_test\AP_OpticalFlow_test.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_OpticalFlow\examples\AP_OpticalFlow_test\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_OpticalFlow\examples\AP_OpticalFlow_test\nocore.inoflag" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_OpticalFlow\AP_OpticalFlow.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_OpticalFlow\AP_OpticalFlow.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_OpticalFlow\AP_OpticalFlow_ADNS3080.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_OpticalFlow\AP_OpticalFlow_ADNS3080.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_OpticalFlow\keywords.txt" />
+            </Folder>
+            <Folder name="AP_Param">
+                <Folder name="tools">
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Param\tools\eedump.c" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Param\tools\eedump.pl" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Param\tools\eedump_apparam.c" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Param\tools\eedump_apparam.pl" />
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Param\AP_Param.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Param\AP_Param.h" />
+            </Folder>
+            <Folder name="AP_PerfMon">
+                <Folder name="AP_PerfMon_test">
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_PerfMon\AP_PerfMon_test\AP_PerfMon_test.pde" />
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_PerfMon\AP_PerfMon.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_PerfMon\AP_PerfMon.h" />
+            </Folder>
+            <Folder name="AP_Progmem">
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Progmem\AP_Progmem.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Progmem\AP_Progmem_AVR.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Progmem\AP_Progmem_AVR.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Progmem\AP_Progmem_Identity.h" />
+            </Folder>
+            <Folder name="AP_RangeFinder">
+                <Folder name="examples">
+                    <Folder name="MaxsonarXL_test">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_RangeFinder\examples\MaxsonarXL_test\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_RangeFinder\examples\MaxsonarXL_test\MaxsonarXL_test.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_RangeFinder\examples\MaxsonarXL_test\nocore.inoflag" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_RangeFinder\AP_RangeFinder.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_RangeFinder\AP_RangeFinder_analog.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_RangeFinder\AP_RangeFinder_analog.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_RangeFinder\AP_RangeFinder_MaxsonarI2CXL.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_RangeFinder\AP_RangeFinder_MaxsonarI2CXL.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_RangeFinder\AP_RangeFinder_MaxsonarXL.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_RangeFinder\AP_RangeFinder_MaxsonarXL.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_RangeFinder\AP_RangeFinder_SharpGP2Y.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_RangeFinder\AP_RangeFinder_SharpGP2Y.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_RangeFinder\keywords.txt" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_RangeFinder\RangeFinder.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_RangeFinder\RangeFinder.h" />
+            </Folder>
+            <Folder name="AP_Relay">
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Relay\AP_Relay.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Relay\AP_Relay.h" />
+            </Folder>
+            <Folder name="AP_Scheduler">
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Scheduler\AP_Scheduler.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\AP_Scheduler\AP_Scheduler.h" />
+            </Folder>
+            <Folder name="DataFlash">
+                <Folder name="examples">
+                    <Folder name="DataFlash_test">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\DataFlash\examples\DataFlash_test\DataFlash_test.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\DataFlash\examples\DataFlash_test\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\DataFlash\examples\DataFlash_test\nocore.inoflag" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\DataFlash\DataFlash.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\DataFlash\DataFlash_APM1.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\DataFlash\DataFlash_APM1.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\DataFlash\DataFlash_APM2.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\DataFlash\DataFlash_APM2.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\DataFlash\DataFlash_Block.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\DataFlash\DataFlash_Block.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\DataFlash\DataFlash_Empty.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\DataFlash\DataFlash_Empty.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\DataFlash\DataFlash_File.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\DataFlash\DataFlash_File.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\DataFlash\DataFlash_SITL.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\DataFlash\DataFlash_SITL.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\DataFlash\LogFile.cpp" />
+            </Folder>
+            <Folder name="doc">
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\doc\Doxyfile" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\doc\updateDocs" />
+            </Folder>
+            <Folder name="Filter">
+                <Folder name="examples">
+                    <Folder name="Derivative">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\Filter\examples\Derivative\Derivative.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\Filter\examples\Derivative\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\Filter\examples\Derivative\nocore.inoflag" />
+                    </Folder>
+                    <Folder name="Filter">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\Filter\examples\Filter\Filter.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\Filter\examples\Filter\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\Filter\examples\Filter\nocore.inoflag" />
+                    </Folder>
+                    <Folder name="LowPassFilter">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\Filter\examples\LowPassFilter\LowPassFilter.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\Filter\examples\LowPassFilter\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\Filter\examples\LowPassFilter\nocore.inoflag" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\Filter\AverageFilter.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\Filter\Butter.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\Filter\DerivativeFilter.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\Filter\DerivativeFilter.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\Filter\Filter.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\Filter\FilterClass.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\Filter\FilterWithBuffer.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\Filter\keywords.txt" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\Filter\LowPassFilter.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\Filter\ModeFilter.h" />
+            </Folder>
+            <Folder name="GCS_Console">
+                <Folder name="examples">
+                    <Folder name="Console">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_Console\examples\Console\Console.pde" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_Console\examples\Console\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_Console\examples\Console\nocore.inoflag" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_Console\examples\Console\simplegcs.cpp" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_Console\examples\Console\simplegcs.h" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_Console\GCS_Console.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_Console\GCS_Console.h" />
+            </Folder>
+            <Folder name="GCS_MAVLink">
+                <Folder name="include">
+                    <Folder name="mavlink">
+                        <Folder name="v0.9">
+                            <Folder name="ardupilotmega">
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\ardupilotmega\ardupilotmega.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\ardupilotmega\mavlink.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\ardupilotmega\mavlink_msg_ahrs.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\ardupilotmega\mavlink_msg_ap_adc.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\ardupilotmega\mavlink_msg_digicam_configure.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\ardupilotmega\mavlink_msg_digicam_control.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\ardupilotmega\mavlink_msg_fence_fetch_point.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\ardupilotmega\mavlink_msg_fence_point.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\ardupilotmega\mavlink_msg_fence_status.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\ardupilotmega\mavlink_msg_hwstatus.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\ardupilotmega\mavlink_msg_limits_status.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\ardupilotmega\mavlink_msg_meminfo.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\ardupilotmega\mavlink_msg_mount_configure.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\ardupilotmega\mavlink_msg_mount_control.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\ardupilotmega\mavlink_msg_mount_status.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\ardupilotmega\mavlink_msg_radio.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\ardupilotmega\mavlink_msg_sensor_offsets.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\ardupilotmega\mavlink_msg_set_mag_offsets.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\ardupilotmega\mavlink_msg_simstate.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\ardupilotmega\testsuite.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\ardupilotmega\version.h" />
+                            </Folder>
+                            <Folder name="common">
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\common.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_action.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_action_ack.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_attitude.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_auth_key.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_boot.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_change_operator_control.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_change_operator_control_ack.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_command.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_command_ack.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_control_status.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_debug.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_debug_vect.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_global_position.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_global_position_int.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_gps_local_origin_set.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_gps_raw.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_gps_raw_int.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_gps_set_global_origin.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_gps_status.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_heartbeat.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_hil_controls.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_hil_state.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_local_position.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_local_position_setpoint.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_local_position_setpoint_set.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_manual_control.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_named_value_float.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_named_value_int.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_nav_controller_output.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_object_detection_event.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_optical_flow.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_param_request_list.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_param_request_read.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_param_set.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_param_value.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_ping.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_position_target.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_raw_imu.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_raw_pressure.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_rc_channels_override.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_rc_channels_raw.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_rc_channels_scaled.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_request_data_stream.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_roll_pitch_yaw_speed_thrust_setpoint.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_roll_pitch_yaw_thrust_setpoint.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_safety_allowed_area.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_safety_set_allowed_area.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_scaled_imu.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_scaled_pressure.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_servo_output_raw.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_set_altitude.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_set_mode.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_set_nav_mode.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_set_roll_pitch_yaw_speed_thrust.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_set_roll_pitch_yaw_thrust.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_state_correction.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_statustext.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_system_time.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_system_time_utc.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_sys_status.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_vfr_hud.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_waypoint.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_waypoint_ack.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_waypoint_clear_all.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_waypoint_count.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_waypoint_current.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_waypoint_reached.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_waypoint_request.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_waypoint_request_list.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\mavlink_msg_waypoint_set_current.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\testsuite.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\common\version.h" />
+                            </Folder>
+                            <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\checksum.h" />
+                            <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\mavlink_helpers.h" />
+                            <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\mavlink_types.h" />
+                            <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v0.9\protocol.h" />
+                        </Folder>
+                        <Folder name="v1.0">
+                            <Folder name="ardupilotmega">
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\ardupilotmega.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_ahrs.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_ap_adc.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_data100.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_data16.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_data32.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_data64.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_data96.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_digicam_configure.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_digicam_control.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_fence_fetch_point.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_fence_point.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_fence_status.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_hwstatus.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_limits_status.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_meminfo.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_mount_configure.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_mount_control.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_mount_status.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_radio.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_rangefinder.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_sensor_offsets.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_set_mag_offsets.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_simstate.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_wind.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\testsuite.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\ardupilotmega\version.h" />
+                            </Folder>
+                            <Folder name="common">
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\common.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_attitude.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_attitude_quaternion.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_auth_key.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_battery_status.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_change_operator_control.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_change_operator_control_ack.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_command_ack.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_command_long.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_data_stream.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_debug.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_debug_vect.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_file_transfer_dir_list.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_file_transfer_res.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_file_transfer_start.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_global_position_int.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_global_position_setpoint_int.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_global_vision_position_estimate.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_gps_global_origin.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_gps_raw_int.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_gps_status.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_heartbeat.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_highres_imu.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_hil_controls.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_hil_rc_inputs_raw.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_hil_state.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_local_position_ned.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_local_position_ned_system_global_offset.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_local_position_setpoint.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_manual_control.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_manual_setpoint.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_memory_vect.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_mission_ack.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_mission_clear_all.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_mission_count.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_mission_current.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_mission_item.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_mission_item_reached.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_mission_request.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_mission_request_list.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_mission_request_partial_list.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_mission_set_current.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_mission_write_partial_list.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_named_value_float.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_named_value_int.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_nav_controller_output.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_optical_flow.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_param_request_list.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_param_request_read.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_param_set.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_param_value.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_ping.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_raw_imu.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_raw_pressure.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_rc_channels_override.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_rc_channels_raw.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_rc_channels_scaled.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_request_data_stream.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_roll_pitch_yaw_rates_thrust_setpoint.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_roll_pitch_yaw_speed_thrust_setpoint.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_roll_pitch_yaw_thrust_setpoint.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_safety_allowed_area.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_safety_set_allowed_area.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_scaled_imu.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_scaled_pressure.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_servo_output_raw.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_setpoint_6dof.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_setpoint_8dof.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_set_global_position_setpoint_int.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_set_gps_global_origin.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_set_local_position_setpoint.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_set_mode.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_set_quad_motors_setpoint.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_set_quad_swarm_led_roll_pitch_yaw_thrust.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_set_quad_swarm_roll_pitch_yaw_thrust.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_set_roll_pitch_yaw_speed_thrust.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_set_roll_pitch_yaw_thrust.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_state_correction.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_statustext.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_system_time.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_sys_status.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_vfr_hud.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_vicon_position_estimate.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_vision_position_estimate.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\mavlink_msg_vision_speed_estimate.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\testsuite.h" />
+                                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\common\version.h" />
+                            </Folder>
+                            <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\checksum.h" />
+                            <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\mavlink_helpers.h" />
+                            <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\mavlink_protobuf_manager.hpp" />
+                            <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\mavlink_types.h" />
+                            <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\include\mavlink\v1.0\protocol.h" />
+                        </Folder>
+                    </Folder>
+                </Folder>
+                <Folder name="message_definitions">
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\message_definitions\ardupilotmega.xml" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\message_definitions\common.xml" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\message_definitions\matrixpilot.xml" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\message_definitions\minimal.xml" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\message_definitions\pixhawk.xml" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\message_definitions\sensesoar.xml" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\message_definitions\slugs.xml" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\message_definitions\test.xml" />
+                    <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\message_definitions\ualberta.xml" />
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\.gitignore" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\GCS_MAVLink.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\GCS_MAVLink.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\GCS_MAVLink\generate.sh" />
+            </Folder>
+            <Folder name="memcheck">
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\memcheck\memcheck.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\memcheck\memcheck.h" />
+            </Folder>
+            <Folder name="PID">
+                <Folder name="examples">
+                    <Folder name="pid">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\PID\examples\pid\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\PID\examples\pid\nocore.inoflag" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\PID\examples\pid\pid.pde" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\PID\keywords.txt" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\PID\PID.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\PID\PID.h" />
+            </Folder>
+            <Folder name="RC_Channel">
+                <Folder name="examples">
+                    <Folder name="RC_Channel">
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\RC_Channel\examples\RC_Channel\Makefile" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\RC_Channel\examples\RC_Channel\nocore.inoflag" />
+                        <File name="C:\Users\Josh\Desktop\ardupilot\libraries\RC_Channel\examples\RC_Channel\RC_Channel.pde" />
+                    </Folder>
+                </Folder>
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\RC_Channel\RC_Channel.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\RC_Channel\RC_Channel.h" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\RC_Channel\RC_Channel_aux.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\RC_Channel\RC_Channel_aux.h" />
+            </Folder>
+            <Folder name="SITL">
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\SITL\SITL.cpp" />
+                <File name="C:\Users\Josh\Desktop\ardupilot\libraries\SITL\SITL.h" />
+            </Folder>
+        </Folder>
+    </Project>
+</NotepadPlus>
