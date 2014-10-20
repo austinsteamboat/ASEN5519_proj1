@@ -1,3 +1,11 @@
+#ifndef __F_FREW_H__
+#define __F_FREW_H__ 
+#endif // added a term
+#include <math.h>
+#include <stddef.h>
+#include <stdlib.h>
+#include <string.h>
+// inline defs required
 float a_r_0 =519.3924327476;
 float a_r_1 =-2.4642711951;
 float b_r_1 =-0.0244960964;
@@ -5,7 +13,7 @@ float a_r_2 =143.2910522684;
 float b_r_2 =0.0000112854;
 float a_r_3 =-0.2154122870;
 float b_r_3 =-0.0065902172;
-float a_r_4 =29.2062652758;
+float a_r_4 =29.2062652758; 
 float b_r_4 =-0.0000237458;
 float a_r_5 =0.1473033205;
 float b_r_5 =-0.0016746834;
