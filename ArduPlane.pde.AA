@@ -1,6 +1,6 @@
 /// -*- tab-width: 4; Mode: C++; c-basic-offset: 4; indent-tabs-mode: nil -*-
 
-#define THISFIRMWARE "ArduPlane CU v1.3 V3.1.2beta1"
+#define THISFIRMWARE "ArduPlane CU v1.4 V3.1.2beta1"
 /*
    Lead developer: Andrew Tridgell
  
@@ -114,6 +114,7 @@ static AP_Vehicle::FixedWing aparm;
 #define PI_CU 3.141592653589793 // pi
 #define r_earth_CU 6371000 // earth radius
 #define deg_val_CU 0.005555555556 // 1/180
+#define GRAV_CU 9.81
 // End ASEN5519 Defines
 
 AP_HAL::BetterStream* cliSerial;
@@ -266,6 +267,8 @@ static double lat_origin = -35.363261;
 static double lon_origin = 149.165230;
 static double Cur_NED_pos[3] = {0}; 
 static float frew_alg_com[3] = {0};
+static float temp_pitch = 0;
+static float temp_roll = 0;
 // End ASEN5519 Statics
 
 static AP_L1_Control L1_controller(ahrs);
@@ -1286,13 +1289,19 @@ static void update_flight_mode(void)
         if (count_val==100){
         gps_xyz(float(current_loc.lat*(0.0000001)),float(current_loc.lng*(0.0000001)),float(current_loc.alt*0.01),lat_origin,lon_origin,alt_origin,Cur_NED_pos);
         f_frew(float(Cur_NED_pos[0]),float(Cur_NED_pos[1]),float(Cur_NED_pos[2]),0,frew_alg_com);
+        temp_pitch = pitch_ang_conv(frew_alg_com[2],frew_alg_com[0]);
+        temp_roll = roll_ang_conv(frew_alg_com[1],frew_alg_com[0]);
+// Local XYZ pos prints
         hal.console->printf("Current X Val is: %f\r",Cur_NED_pos[0]);
         hal.console->printf("Current Y Val is: %f\r",Cur_NED_pos[1]);
         hal.console->printf("Current Z Val is: %f\r",Cur_NED_pos[2]);
+// Command Calc prints        
         hal.console->printf("Current Airspeed Val is: %f\r",frew_alg_com[0]);
         hal.console->printf("Current Chidot Val is: %f\r",frew_alg_com[1]);
         hal.console->printf("Current Climbrate Val is: %f\r",frew_alg_com[2]);
-
+// Roll and Pitch Prints        
+        hal.console->printf("Current roll command is: %f\r",temp_roll);
+        hal.console->printf("Current pitch command is: %f\r",temp_pitch);
         count_val = 0;
         }
         calc_nav_pitch();
@@ -1683,6 +1692,20 @@ void f_frew(float x, float y, float z, float chi,float frew_com[3])
 	frew_com[1] = u_chi_dot;
 	frew_com[2] = u_z;
 }
+
+//Pitch and Roll Conversions!
+//Convert turn rate in rad/s to roll angle in centidegrees
+float roll_ang_conv(float chidot, float com_airspeed) {
+	float roll_ang = atan((com_airspeed*chidot)/GRAV_CU);
+	return (roll_ang*180/PI_CU)*100;
+}
+
+//Convert climb rate in m/s to pitch angle in centidegrees
+float pitch_ang_conv(float climbrate, float com_airspeed) {
+	float pitch_ang = asin(climbrate/com_airspeed);
+	return (pitch_ang*180.0/PI_CU)*100.0;
+}
+
 
 ///////////////////////////////
 // End ASEN 5519 Function Calls
