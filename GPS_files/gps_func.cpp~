@@ -33,7 +33,7 @@ float smoother_func(float cur_val,float val_array[32])
     }
     val_array[0] = cur_val;
     dum_val = dum_val+cur_val;
-    return dum_val/32;// /8
+    return dum_val;// /8
 }
 
 
