@@ -12,7 +12,7 @@ mu_z = 0;
 %conveniant
 path_pts(:,1) = path_pts(:,1) - mu_x;
 path_pts(:,2) = path_pts(:,2) - mu_y;
-path_pts(:,3) = path_pts(:,3) - mu_z;
+path_pts(:,3) = -path_pts(:,3) - mu_z;
 %Convert to polar coordinates
 path_pts_polar = [(path_pts(:,1).^2 + path_pts(:,2).^2).^.5,...
     atan2(path_pts(:,2),path_pts(:,1)),path_pts(:,3)];
