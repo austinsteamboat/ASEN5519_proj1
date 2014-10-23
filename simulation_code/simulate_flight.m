@@ -26,7 +26,7 @@ for i = 1:size(t,2)
     
     % Choose which function to use
     % [u,path] = f_frew(x);
-    [u,path] = f_frew_C_template(x(1),x(2),x(3),x(4));
+    [u] = f_frew_C_template(x(1),x(2),x(3),x(4));
     % Update command queue
     if delay_ind ~= 0
         for j = 1:delay_ind - 1
@@ -70,12 +70,12 @@ for i = 1:size(t,2)
 % clf
 % scatter3(x(1),x(2),x(3),50,'filled')
 % hold on
-% plot3(x_list(:,1),x_list(:,2),x_list(:,3))
-% hold on
-% plot3(path(:,1),path(:,2),path(:,3),'Color','g','LineWidth',2)
-% grid on
-% %axis([-200 1000 -200 600 -100 500])
-% pause(0.01)
+plot3(x_list(:,1),x_list(:,2),x_list(:,3))
+hold on
+%plot3(path(:,1),path(:,2),path(:,3),'Color','g','LineWidth',2)
+grid on
+%axis([-200 1000 -200 600 -100 500])
+pause(0.01)
 end
 % % Error Plots
 % figure(2)
