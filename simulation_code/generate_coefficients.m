@@ -1,7 +1,7 @@
 function generate_coefficients
 
 format long g
-path_pts = csvread('path_to_follow_2.csv');
+path_pts = csvread('path_to_follow_final.csv');
 %Calculate mean value of path in order to center on origin
 mu_x = mean(path_pts(:,1));
 mu_y = mean(path_pts(:,2));
